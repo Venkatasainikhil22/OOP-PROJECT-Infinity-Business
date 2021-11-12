@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">    
+    <title>Infinity Business</title>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <div class="icon">
+                <a href="index.html"> 
+                    <ul>
+                        <li><img src="images/image1.jpeg" alt=""></li>
+                        <li><h1>IBT</h1></a></li>
+                    </ul>
+                     
+            </div>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Templates</a></li>
+                    <li><a href="">Pricing</a></li>
+                    <li id="loginbutton"><a href="login.html">Log In</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+    </section>
+    <section class="home">
+        <div>
+            <img src="images/image 2.jpeg" alt="">
+        </div>
+        <div>
+            <h1> 100+ Free Buisness Templates</h1>
+            <br>
+            <p> Simplify your life, impress your clients, win more deals, and skyrocket your productivity <br>
+                with our collection of free, designer-approved professional templates.</p>
+        </div>
+    </section>
+
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+
+        }
+
+    </script>
+</body>
+</html>
