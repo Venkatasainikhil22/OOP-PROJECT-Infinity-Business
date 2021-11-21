@@ -1,0 +1,19 @@
+{
+  "name": "infinity-business",
+  "version": "1.0.0",
+  "description": "Business Template Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinayak-upadh1/Infinity-Business.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vinayak-upadh1/Infinity-Business/issues"
+  },
+  "homepage": "https://github.com/vinayak-upadh1/Infinity-Business#readme"
+}
