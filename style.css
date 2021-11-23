@@ -1,158 +1,77 @@
-*{
-    padding: 0%;
-    margin: 0%;
-    font-family: 'Poppins', sans-serif;
+body{
+    overflow-x: hidden;
+    font-family: 'PT sans', sans-serif;
 }
 
-nav{
+.section-content{
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1% 6%;
-    background: #E5E5E5;
-    border: 1px solid #E5E5E5;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x) / -2);
+    margin-left: calc(var(--bs-gutter-x) / -2);
 }
-.icon{
-    display: inline-block;
-}
-.icon ul li img{
-    width:50px;
-    height: auto;
+.section-container .about-right-col
+{
+    flex:0 0 auto;
+    width: 50%;
     
 }
-.nav-links{
-    display: inline-block;
-    flex: 1;
-    text-align: right;
+
+.section-container .about-left-col .section-content
+{
+ padding: 40px 50px;
 }
 
-.nav-links ul li{
-    list-style-type: none;
-    display: inline-block;
-    position: relative;
-    padding: 5px 12px;
+.section-container .about-left-col .content-container
+{
+    position: center;
+    mask-repeat: no-repeat;
 }
-.nav-links ul li a{
-    text-decoration: none;
-    color: #000000;
-    font-weight: bold;
-    font-size: 17px;
+.section-container .columns  .content-container {
+    padding: 40px 50px;
 }
-
-/* .nav-links ul button{
-    position: absolute;
-    width: 120px;
-    height: 52px;
-    left: 1220px;
-    top: 24px;
-    background: #2471EF;
-    border-radius: 25px;
-    cursor: pointer;
-} */
-/* #loginbutton { */
-    /* text-align: right;
-    margin-top: -35px;
-} */
-/* #loginbutton li{
-
-} */
-
-#loginbutton{
-    width: 60px;
-    height: 30px;
-    /* text-align: right; */
-    
-    background-color: rgb(66,133,244);
-    border-radius: 25px;
-    font-family: sans-serif;
-    font-size: 0.8rem;
+.section-container .about-left-col .content-container h1
+{
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 20px;
 }
-#loginbutton li a{
-    text-align: center;
-    margin-bottom: 5px;
+.section-container .about-left-col .content-container p
+{
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin-bottom: 15px;
+    text-align: justify;
 }
-#loginbutton li a:hover{
-    box-shadow: none !important;
-}
-nav .fas{
-    display: none;
-    color: #000000;
-}
-
-@media(max-width: 700px){
-    .nav-links ul li{
-        display: block;
+@media screen and (max-width: 767px) {
+    .section-container
+    {
+        flex-flow:row wrap;
     }
-    .nav-links{
-        position: fixed;
-        background: rgb(243, 94, 7);
-        /* text-align: left; */
-        height: 100vh;
-        width: 200px;
-        top: 0;
-        display: inline-block;
-        right: -200px;
-        z-index: 2;
-        padding-top: 2rem;
-        transition: 0.8s;
-        color: #fff;
-        text-align: center !important;
-
-    }
-    nav .fas{
-        display: block;
-        color: #000000;
-        font-size: 22px;
-        margin: 10px;
-        cursor: pointer;
-    }
-}
-.home img{
-    width: 100%;
-    min-height: 50vh;
-    background-size: cover;
-    position: relative;
-    background-position: center;
-}
-.home h1{
-    text-align: center;
-    padding-top: 2rem;
-    font-size: 56px;
-    line-height: 75px;
-}
-.home p{
-    text-align: center;
-    font-size: 20px;
-    font-weight: bold;
-    line-height: 37px;
-}
-.home{
-    padding-bottom: 3rem;
-}
-@media(max-width: 700px){
-    .home img{
+    .section-container .about-left-col{
+        text-align: justify;
         width: 100%;
+        height: 50px;
     }
-    .home h1{
-        font-size: 24px;
-    }
-    .home p{
-        font-size: 14px;
-    }
-}
-.icon ul li {
-    display: inline-block;
-}
-.icon a{
-    text-decoration: none;
-    color: black;
-}
-.nav-links ul li a:hover{
-    border-bottom: 3px solid black;
-    box-shadow: 3px 5px 3px 5px  rgba(27, 25, 25, 0.562);
-}
-/* .icon ul li:hover{
-    border-bottom: 3px solid black;
-    box-shadow: 3px 5px 3px 5px  rgba(27, 25, 25, 0.562);
-} */
+    .section-container .columns .section-content
+    {
+        display: block;
+        width: 100%;
 
+    }
+    .section-container .columns
+    {
+        width: 100%;
+        text-align: justify;
+    }
+    .section-container .columns .about-left-col .content-container {
+        padding: 5px 10px;
+    }
+    .section-container .about-left-col .content-container h1
+    {
+     margin-bottom: 4px;
+    }
+}
