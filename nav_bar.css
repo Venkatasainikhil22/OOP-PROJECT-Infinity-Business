@@ -1,0 +1,46 @@
+.navbar{
+    border-bottom: 4px solid rgb(198, 198, 198);
+    font-family:  'Roboto', sans-serif;;
+}
+
+.navbar ul{
+    overflow: auto;
+}
+
+.navbar li{
+    margin: 10px 30px;
+    float: right;
+    list-style: none;
+
+}
+
+.log{
+    background-color: blue;
+    text-decoration: none;
+    padding: 3px 50px;
+    color: white;
+    border-radius: 30px;
+    font-size: larger;
+}
+
+.navbar li a{
+    padding: 10px 50px;
+    text-decoration: none;
+    font-size: larger;
+    color: black;
+    border-radius: 30px;
+
+}
+
+#nav :hover{
+    /* background-color: black;  */
+    color: rgb(255, 21, 0);
+    /* box-shadow: 25px; */
+    background-color: rgb(235, 233, 233);
+}
+
+.log :hover{
+    background-color: black;
+}
+
+

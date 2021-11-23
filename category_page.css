@@ -1,0 +1,28 @@
+img{
+    width: 400px;
+    align-items: center;
+    margin: 18px 65px;
+    padding: 25px 12px;
+    box-shadow: 0 0 20px 2px;
+    border-radius: 23px;
+
+}
+
+.class1{
+    text-align: center;
+    margin: 10px 10px;
+    padding: 10px 40px;
+    font-size: 56px;
+    font-family:  'Roboto', sans-serif;;
+    transition: 2s;
+
+}
+
+.box{
+    transition: 1s;
+}
+
+.class2 :hover{
+    transform: scale(1.05);
+    z-index: 2;
+}
