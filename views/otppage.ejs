@@ -4,32 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="forgetpasswordpage.css">
+    <link rel="stylesheet" href="../otppage.css">
 
-    <title>Forget Password page</title>
+    <title>otp_verification</title>
 
 </head>
 <body>
     <section class="a">
-        <div class="div1"><img src="./images/infinity.jpg" alt=""></div>
-        <div class="namediv">
-       <h1>Infinity Business Templates</h1>
+        
+        <div class="div1"><img src="../images/auth.jpg" alt=""></div>
+        <div class="div2">
+            <h1>One Time Password</h1>
         </div>
-         <div class="forgetpassworddiv">
-           Password Assistance
-         </div>
-         <div class="div3">
-            Enter the email address associated with your account 
-         </div>
-
+        <div class="namediv">
+       <h1>Verification</h1>
+        </div>
+        <% if(success_msg)
+        {%> <%= success_msg %>  
+            <%}
+            %>
         <div class="logindiv">
-            <form action="/passrecover" method="post">
-                <div class="div5">          
-                  <input  type="email" placeholder="Your Email Address" name="email" id="email" required="true">    
+            <form action="/verifyotp/?email=<%= email%>" method="post">
+                <div class="div5">
+                    <input id="partitioned" type="number" placeholder="Enter your OTP" maxlength="6" name="otp" required="true"/>          
                 </div>
+                <div class="div6"><button type="submit">Submit</button></div>
            </div>
-           <div class="div6"><button type="submit">Continue</button></div>
             </form>
+                      
         </div>
     </section>
       <section>  
