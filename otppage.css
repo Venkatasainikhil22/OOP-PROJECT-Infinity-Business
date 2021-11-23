@@ -1,0 +1,228 @@
+.a{
+    position: relative;
+     width: 1440px;
+    height: 600px;
+    background:white;
+    }
+    .div1 img{
+
+        position: absolute;
+        width: 400px;
+        height: 250px;
+        left: 570px;
+        top: 42px;
+        background-blend-mode: darken;
+    }
+
+    .div2
+    {
+    position: absolute;
+    width: 500px;
+    height: 18px;
+    left: 580px;
+    top: 10px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 18px;
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #000000;
+    }
+    
+    .namediv
+    {
+    position: absolute;
+    width: 500px;
+    height: 18px;
+    left: 640px;
+    top: 310px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 18px;
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #000000;
+    }
+
+    .div3{
+        
+    position: absolute;
+    width: 490px;
+    height: 27px;
+    left: 530px;
+    top: 338px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 27px;
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    }
+    .logindiv input{
+    position: absolute;
+    width: 400px;
+    height: 55px;
+    left: 570px;
+    
+    top: 380px;
+    text-align: center;
+    background: #F9F9F9;
+    border: 0.5px solid #000000;
+    box-sizing: border-box;
+    border-radius: 5px;
+    }
+    .div6 button{
+        position: absolute;
+        width: 400px;
+        height: 55px;
+        left: 570px;
+        top: 470px;
+        font-size: 22px;
+        color: #F9F9F9;
+        
+        /* background: #F9F9F9; */
+        background: #2622FF;
+
+        border: 1px solid #F9F9F9;
+        box-sizing: border-box;
+        border-radius: 5px;
+    }
+    
+    @media screen and (max-width: 576px) 
+    {
+        .loginsection{
+        position: relative;
+        width: 100vw;
+        height:100vh;
+        background:white;
+        }
+        .div1 img{
+            position: absolute;
+            width: 15vw;
+            height: 10vh;
+            left: 630px;
+            top: 69px;
+            background-blend-mode: darken;
+        }
+        
+        .namediv
+        {
+        position: absolute;
+        width: 178px;
+        height: 18px;
+        left: 630px;
+        top: 209px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 18px;
+    
+        display: flex;
+        align-items: center;
+        text-align: center;
+        flex-wrap: wrap;
+        
+        color: #000000;
+        }
+        
+        .div3{
+            
+        position: absolute;
+        width: 290px;
+        height: 27px;
+        left: 574px;
+        top: 354px;
+        
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 27px;
+        
+        display: flex;
+        align-items: center;
+        text-align: center;
+        
+        color: #000000;
+        }
+    
+        .div3 a{
+            text-decoration: none;
+        }
+    
+        .logindiv input{
+        position: absolute;
+        width: 505px;
+        height: 55px;
+        left: 467px;
+        top: 420px;
+        text-align: center;
+        background: #F2F2F2;
+        border: 0.5px solid #000000;
+        box-sizing: border-box;
+        border-radius: 5px;
+        }
+        
+        .div6 button{
+            position: absolute;
+            width: 663px;
+            height: 55px;
+            left: 388px;
+            top: 527px;
+            
+            background: #2622FF;
+            border: 1px solid #F2F2F2;
+            box-sizing: border-box;
+            border-radius: 5px;
+        }
+    }
+    
+    .fc{
+
+        height: 20vh;
+        display: flex;
+        background: #242424 ;
+        justify-content: center;
+        justify-content:space-evenly;
+        flex-wrap: wrap;
+        
+    }
+    
+    .fitem{
+        
+        background-color: #242424;
+        margin:12px;
+        width: 122px;
+        height: 122px;
+        font-size: 20px;
+        color: white;
+    }
+    .i1{
+        flex-grow: 1;   
+    }
+    .i2{
+        flex-grow: 0.1;
+    }
+    .i3{
+        flex-grow: 0.2;
+    }
+    .i4{
+        flex-grow: 0.2;
+    }
+    
