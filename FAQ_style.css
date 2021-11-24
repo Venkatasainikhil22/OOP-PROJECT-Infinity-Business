@@ -40,6 +40,7 @@ body {
   margin-bottom: 15px;
   text-align: justify;
 }
+
 @media screen and (max-width: 767px) {
   .section-container {
     flex-flow: row wrap;
