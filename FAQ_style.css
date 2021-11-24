@@ -1,7 +1,8 @@
-body {
+/*body {
   overflow-x: hidden;
   font-family: "PT sans", sans-serif;
 }
+*/
 
 .section-content {
   --bs-gutter-x: 1.5rem;
