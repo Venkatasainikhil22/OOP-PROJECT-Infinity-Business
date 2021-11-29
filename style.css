@@ -104,23 +104,35 @@ nav .fas {
   width: 100%;
   min-height: 50vh;
   background-size: cover;
-  position: relative;
+  margin-top: 15px;
   background-position: center;
 }
 .home h1 {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   text-align: center;
   padding-top: 2rem;
-  font-size: 56px;
+  font-size: 50px;
   line-height: 75px;
+  width: fit-content;
+  color: white;
 }
 .home p {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   text-align: center;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: bold;
   line-height: 37px;
+  width: fit-content;
+  color: white;
 }
 .home {
-  padding-bottom: 3rem;
+  padding-bottom: 1rem;
 }
 @media (max-width: 700px) {
   .home img {
