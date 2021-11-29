@@ -6,14 +6,15 @@
 }
 .div1 img{
   position: absolute;
-  width: 178px;
+  width: 212px;
   height: 126px;
   left: 630px;
   top: 69px;
   background-blend-mode: darken;
 }
 
-.namediv{
+.namediv
+{
   position: absolute;
   width: 212px;
   height: 25px;
