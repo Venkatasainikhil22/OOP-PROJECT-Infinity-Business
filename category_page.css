@@ -288,10 +288,11 @@ nav .fas {
     bottom: 0;
     background: linear-gradient(to right, #00093c, #2d0b00);
     color: #fff;
-    padding: 100px 0 30px;
+    padding: 80px 10 10px;
     border-top-left-radius: 125px;
     font-size: 13px;
     line-height: 20px;
+
   }
   .row {
     width: 85%;
