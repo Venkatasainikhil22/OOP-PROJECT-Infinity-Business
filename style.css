@@ -243,16 +243,7 @@ hr {
 .copyright {
   text-align: center;
 }
-.underline {
-  width: 80%;
-  height: 9px;
-  background: #767676;
-  border-radius: 3px;
-  position: absolute;
-  top: 25px;
-  left: 0;
-  overflow: hidden;
-}
+
 
 
 @keyframes moving {
