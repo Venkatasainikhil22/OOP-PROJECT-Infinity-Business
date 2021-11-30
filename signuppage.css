@@ -239,3 +239,10 @@ text-align: center;
 
 color: #2622FF;
 }
+.g-signin2{
+    position: absolute;
+    width: 505px;
+    height: 55px;
+    left:650px;
+     top: 700px;
+}
