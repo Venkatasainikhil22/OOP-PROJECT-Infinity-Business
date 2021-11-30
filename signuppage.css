@@ -247,5 +247,5 @@ color: #2622FF;
      top: 700px;
 }
 .abcRioButton {
-    border-radius: 25px;
+    border-radius: 25px !important;
 }
