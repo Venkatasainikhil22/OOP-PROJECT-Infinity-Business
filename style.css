@@ -246,9 +246,9 @@ hr {
 .underline {
   width: 80%;
   height: 9px;
-  background: #767676;
+  background: #929191;
   border-radius: 5px ;
-  position: absolute;
+  position:relative;
   top: 30px;
   left: 0;
   margin: 10px 5px;
