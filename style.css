@@ -251,6 +251,7 @@ hr {
   position: absolute;
   top: 30px;
   left: 0;
+  margin: 10px 5px;
   overflow: hidden;
 }
 
