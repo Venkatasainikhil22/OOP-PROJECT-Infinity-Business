@@ -55,10 +55,7 @@ nav .fas {
   display: none;
   color: #000000;
 }
-/* .nav-links{
-  display: inline-block;
-}
-*/
+
 
 .log :hover {
   background-color: black;
@@ -165,7 +162,7 @@ body {
 }
 
 footer {
-  width: 100%;
+  width: 98%;
   position: relative;
   bottom: 0;
   background: linear-gradient(to right, #00093c, #2d0b00);
@@ -256,16 +253,8 @@ hr {
   left: 0;
   overflow: hidden;
 }
-.underline span {
-  width: 15px;
-  height: 100%;
-  background: #fff;
-  border-radius: 3px;
-  position: absolute;
-  top: 0;
-  left: 10px;
-  animation: moving 2s linear infinite;
-}
+
+
 @keyframes moving {
   0% {
     left: -20px;
