@@ -55,8 +55,12 @@ nav .fas {
   display: none;
   color: #000000;
 }
-
-
+.navbar .sticky{
+  padding: 5px 100px;
+}
+.navbar .sticky ul li a{
+  color:#000 ;
+}
 .log :hover {
   background-color: black;
 }
