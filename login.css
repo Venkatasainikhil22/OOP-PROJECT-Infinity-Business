@@ -160,7 +160,7 @@ color: #3D67FF;
 }
 .div10{
     position: absolute;
-width: 70px;
+width: 40px;
 height: 36px;
 left: 684px;
 top: 611px;
@@ -177,6 +177,34 @@ align-items: center;
 text-align: center;
 
 color: #2622FF;
+}
+.button{
+    position: relative;
+    text-align: center;
+    width: 250px;
+    padding: 40px;
+    font-size: 35px;
+    color: #15f4ee;
+    font-family: poppins;
+    font-weight: 400;
+    border-color: 5px solid #15f4ee;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    cursor: pointer;
+    border-radius: 100px;
+    transition: 1.5s;
+}
+.button:hover
+{
+    box-shadow: 
+                0 5px 50px 0 #15f4ee inset,
+                0 5px 50px 0 #15f4ee,
+                0 5px 50px 0 #15f4ee inset,
+                0 5px 50px 0 #15f4ee;
+    text-shadow:
+                0 0 5px #15f4ee,
+                0 5px 50px 0 #15f4ee inset;          
+
 }
 .div11{
     position: absolute;
@@ -363,7 +391,7 @@ color: #000000;
     }
     .div10{
         position: absolute;
-    width: 70px;
+    width: 40px;
     height: 36px;
     left: 684px;
     top: 611px;
@@ -381,6 +409,34 @@ color: #000000;
 
     color: #2622FF;
     }
+    .button{
+        position: relative;
+        text-align: center;
+        width: 250px;
+        padding: 40px;
+        font-size: 35px;
+        color: #15f4ee;
+        font-family: poppins;
+        font-weight: 400;
+        border-color: 5px solid #15f4ee;
+        text-transform: uppercase;
+        letter-spacing: 15px;
+        cursor: pointer;
+        border-radius: 100px;
+        transition: 1.5s;
+    }
+    .button:hover
+{
+    box-shadow: 
+                0 5px 50px 0 #15f4ee inset,
+                0 5px 50px 0 #15f4ee,
+                0 5px 50px 0 #15f4ee inset,
+                0 5px 50px 0 #15f4ee;
+    text-shadow:
+                0 0 5px #15f4ee,
+                0 5px 50px 0 #15f4ee inset;          
+
+}
     .div11{
         position: absolute;
     width: 623px;
