@@ -232,6 +232,7 @@ form button {
   background: transparent;
   border: 0;
   outline: none;
+  color: #fff;
   cursor: pointer;
 }
 .social-icons .fab {
