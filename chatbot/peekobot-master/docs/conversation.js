@@ -82,6 +82,7 @@ const chat = {
                 text: "Pricing",
                 url: "../../../pricing.html"
             }
+            
         ]
     },
     5: {
