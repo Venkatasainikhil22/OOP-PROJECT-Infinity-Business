@@ -1,15 +1,45 @@
 .loginsection{
+  position: relative;
+  width: 1440px;
+  height: 900px;
   background:white;
-  margin-top: 3rem;
+}
+.div1 img{
+  position: absolute;
+  width: 212px;
+  height: 126px;
+  left: 630px;
+  top: 69px;
+  background-blend-mode: darken;
 }
 
+.namediv
+{
+  position: absolute;
+  width: 212px;
+  height: 25px;
+  left: 630px;
+  top: 209px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 18px;
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+color: #000000;
+}
 .loginnamediv{
 
 position: absolute;
 width: 108px;
 height: 54px;
 left: 665px;
-padding-top: 4rem;
+top: 284px;
+
 font-family: Poppins;
 font-style: normal;
 font-weight: bold;
@@ -29,7 +59,8 @@ position: absolute;
 width: 290px;
 height: 27px;
 left: 574px;
-padding-top: 8rem;
+top: 354px;
+
 font-family: Poppins;
 font-style: normal;
 font-weight: normal;
@@ -182,7 +213,8 @@ color: #2622FF;
 width: 623px;
 height: 54px;
 left: 408px;
-padding-top: 32rem;
+top: 822px;
+
 font-family: Poppins;
 font-style: normal;
 font-weight: 500;
@@ -193,12 +225,7 @@ align-items: center;
 text-align: center;
 
 color: #000000;
-margin-bottom: 3rem;
-padding-bottom: 3rem;
 
-}
-.div11 a{
-    text-decoration: none;
 }
 @media screen and (max-width: 576px)
 {
