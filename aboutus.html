@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="images\infinity logo.png">
+  <title>About Us</title>
+  <link rel="stylesheet" href="aboutus.css">
+  <link rel="stylesheet" href="style.css">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous"
+    referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="footer_style.css">
+
+</head>
+
+<body>
+
+  <section class="header">
+    <header>
+      <nav class="navbar">
+
+        <div class="icon">
+          <a href="index.html"><img src="images/logo.png" alt="logo" width="120px"> </a>
+        </div>
+
+        <div class="nav-links" id="navLinks">
+          <i class="fas fa-times" onclick="hideMenu()"></i>
+
+          <ul id="nav">
+            <a href="login.html">
+              <li class="log">
+                <c href="#">Login</c>
+              </li>
+            </a>
+            <li><a href="pricing.html">Pricing</a></li>
+            <li><a href="category_page.html">Category</a></li>
+            <li><a href="index.html">Home</a></li>
+          </ul>
+        </div>
+        <i class="fas fa-bars" onclick="showMenu()"></i>
+      </nav>
+    </header>
+  </section>
+
+  <div class="split left">
+    <div class="centered">
+      <h2>ABOUT US</h2>
+      <p class="text">Infinity Business Templates is a professional eCommerce platform. Here we will only provide you with templates that you will like very much. We're dedicated to providing you with the best in e-commerce. We're working to turn our
+        passion for eCommerce into a booming online website. We hope you enjoy our e-commerce as much as we enjoy offering it to you.</p>
+      <p class="text">We will keep posting more templates on our website for all of you. Please give your support and love.</p>
+      <p class="text">Thanks for visiting our site. Have a nice day!</p>
+    </div>
+  </div>
+
+  <div class="split right">
+    <div class="centered">
+      <img src="images\aboutus.jpg" style="width:100%; alt="">
+    </div>
+  </div>
+
+  <footer>
+    <div class="row">
+      <div class="col-1">
+        <img src="images/logo.png" class="logo" width="100px">
+        <p style="text-align: justify;">ibt.com is a leading cloud-based development platform with millions of users worldwide. we make it easy for everyone to create a beautiful, proffessional web presence.
+          Promote your bussiness, showcase your art,set up an online shop or just test out new ideas. The ibt website builder has everything you need to create a fully personalized , high-quality free website
+          @2006-2021 ibt.com.inc
+        </p>
+      </div>
+      <div class="col-1">
+        <h3>New products, delivered to you <div class="underline"><span></span></div>
+        </h3>
+        <p>sign up for our newsletter for the latest updates</p>
+      </div>
+
+      <div class="col-1">
+        <form>
+          <input type="email" placeholder="Enter your email id" required>
+          <button>sign up <i class="fas fa-arrow-right"></i> </button>
+        </form>
+        <div class="social-icons">
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-twitter-square"></i>
+          <i class="fab fa-pinterest-p"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-invision"></i>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <p class="copyright">&#169; 2020 copyright all right reserved <br><br><br><a href="#"> ABOUT US </a> | <a href="privacy_policy.html"> PRIVACY POLICY </a>| <a href="terms.html"> TERMS AND CONDITIONS </a> | <a href="contact_us.html"> CONTACT US
+      </a></p>
+
+
+  </footer>
+
+
+
+
+  <script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+      navLinks.style.right = "0";
+
+    }
+
+    function hideMenu() {
+      navLinks.style.right = "-200px";
+
+    }
+  </script>
+
+</body>
+
+</html>
