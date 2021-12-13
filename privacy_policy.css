@@ -19,6 +19,7 @@
     text-align: right;
     padding-right: 20rem;
     padding-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .list{
@@ -42,4 +43,27 @@
     font-family: Arial, Helvetica, sans-serif;
     padding-top: 2rem;
 }
+.pp{
+    padding-left: 6rem;
+}
+.pp h2{
+    padding-top: 2rem;
+}
+.pp p{
+    padding-top: 1.5rem;
+    padding-bottom: 2.3rem;
+    width: 90%;
+}
+.pp ul{
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+    padding-left: 2rem;
+    width: 70%;
+}
+.pp a{
+    text-decoration: none;
+    color: #0000EE;
+}
+
+
 
