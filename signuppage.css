@@ -283,7 +283,7 @@ color: #2622FF;
     }
 
     .far{
-        /* display: none; */
+        display: none;
         position: relative;
     }
 }
