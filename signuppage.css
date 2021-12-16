@@ -261,7 +261,8 @@ color: #2622FF;
     border-radius: 25px !important;
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 700px)
+{
     .loginsection{
         width: 100%;
         position: absolute;
@@ -278,7 +279,11 @@ color: #2622FF;
         background: #F2F2F2;
         border: 0.5px solid #000000;
         box-sizing: border-box;
-        border-radius: 5px;
-        
+        border-radius: 5px;   
+    }
+
+    .far{
+        /* display: none; */
+        position: relative;
     }
 }
