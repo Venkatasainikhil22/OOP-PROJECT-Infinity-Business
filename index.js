@@ -1,10 +1,19 @@
 const express = require('express');
 const app = express();
 const ejs = require('ejs');
+const bodyParser = require("body-parser");
+const cors = require("cors");
+require("dotenv").config();
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({extended: true}));
 const nodemailer = require('nodemailer');
 const session = require('express-session');
 const flash = require('connect-flash');
 const port = 9000;
+
+
+const {initPayment, responsePayment} = require("./paytm/services/index.js");
+app.use(cors());
 // const router = express.Router();
 const db = require('./config/mongoose');
 const user = require('./models/user');
@@ -295,4 +304,47 @@ app.listen(port,function(err)
     }
     console.log("server is running on the port",port);
           return ;
+});
+
+
+
+app.get("/paywithpaytm", (req, res) => {
+  console.log(req.query)
+  const {subscriptiontype}=req.query
+  let amt="99999999999999"
+  if(subscriptiontype==="1"){
+   amt = "999"
+  }
+  else if(subscriptiontype==="2"){
+  amt = "129"
+  }
+  else{
+    res.sendStatus(404);
+    return;
+  }
+  
+  initPayment(amt).then(
+      success => {
+          res.render("paytmRedirect.ejs", {
+
+              resultData: success,
+              paytmFinalUrl: process.env.PAYTM_FINAL_URL
+          });
+      },
+      error => {
+          res.send(error);
+      }
+  );
+});
+
+app.post("/paywithpaytmresponse", (req, res) => {
+  console.log(req.body)
+  responsePayment(req.body).then(
+      success => {
+          res.render("response.ejs", {resultData: "true", responseData: success});
+      },
+      error => {
+          res.send(error);
+      }
+  );
 });

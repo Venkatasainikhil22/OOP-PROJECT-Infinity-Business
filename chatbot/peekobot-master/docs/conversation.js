@@ -50,7 +50,7 @@
  */
 const chat = {
     1: {
-        text: 'Hi! Welcome to Peekobot.',
+        text: 'Welcome to Infinity Business !',
         options: [
             {
                 text: '👋',
@@ -59,28 +59,40 @@ const chat = {
         ]
     },
     2: {
-        text: 'Peekobot is a <em>really simple</em>, choice-driven chatbot framework made in <del>less than</del> just over 100 lines of vanilla JavaScript',
+        text: 'Our aim is to Simplify your life, impress your clients, win more deals, and skyrocket your productivity with our collection of free, designer-approved professional templates.',
         next: 3
     },
     3: {
-        text: 'But you probably knew that anyway.',
+        text: 'Please select the required option-',
         options: [
             {
-                text: "<strong>Yes</strong>, I did!",
+                text: "About Pricing",
                 next: 4
             },
             {
-                text: "<strong>Nope</strong>, this is news.",
+                text: "Tamplate categories",
                 next: 5
             }
         ]
     },
     4: {
-        text: 'Awesome. This chat is still in development. Happy coding!',
+        text: 'Please select the option',
+        options: [
+            {
+                text: "Pricing",
+                url: "../../../pricing.html"
+            }
+            
+        ]
     },
     5: {
-        text: 'Aah, you\'re missing out!',
-        next: 6
+        text: 'Please select the option',
+        options: [
+            {
+                text: "Category",
+                url: "../../../category_page.html"
+            }
+        ]
     },
     6: {
         text: 'You should check it out on GitHub',

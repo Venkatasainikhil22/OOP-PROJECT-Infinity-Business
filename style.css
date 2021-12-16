@@ -3,7 +3,12 @@
   margin: 0%;
   font-family: "Poppins", sans-serif;
 }
-
+.header {
+  padding: 0%;
+  margin: 0%;
+  font-family: "Poppins", sans-serif;
+  background-color: #fff;
+}
 .navbar {
   border-bottom: 4px solid rgb(198, 198, 198);
   font-family: "Roboto", sans-serif;
@@ -172,9 +177,9 @@ footer {
   background: linear-gradient(to right, #00093c, #2d0b00);
   color: #fff;
   padding: 80px 10 10px;
-  border-top-left-radius: 125px;
   font-size: 13px;
-  line-height: 20px;
+  padding-bottom: 1.5rem;
+  margin-top: 10rem;
 }
 .row {
   width: 85%;
@@ -224,6 +229,7 @@ form button {
   background: transparent;
   border: 0;
   outline: none;
+  color: #fff;
   cursor: pointer;
 }
 .social-icons .fab {
@@ -246,6 +252,11 @@ hr {
 }
 .copyright {
   text-align: center;
+  word-spacing: 2px;
+}
+.copyright a{
+  text-decoration: none;
+  color: #fff;
 }
 
 @keyframes moving {
