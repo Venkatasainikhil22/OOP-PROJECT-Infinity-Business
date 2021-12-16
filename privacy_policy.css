@@ -1,58 +1,76 @@
-
 .container{
     margin: -10px 18px;
     padding: 7px 10px ;
     list-style-type: none;
-
+}
+@media only screen and (min-width: 360px) and (max-width: 768px){
+    .container{
+        padding: 3px 0px;
+    }
 }
 
 #first{
     font-size: 40px;
     font-weight:bolder;
     font-family: Arial, Helvetica, sans-serif;
-    padding-top: 100px;
+    padding-top: 80px;
     text-align: center;
 }
 
 #second{
     font-size: 15px;
     text-align: right;
-    padding-right: 20rem;
-    padding-top: 2rem;
-    margin-bottom: 2rem;
+    /* padding-right: 10rem; */
+    padding-right: 10%;
+    padding-top: 1rem;
+    margin-bottom: 1rem;
 }
 
-.list{
-    font-size: 22px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bolder;
-    margin: 5px 35px;
-    padding: 3px 15px;
-    margin-bottom: 80px;
-}
-
-#list{
-    padding: 9px 0px;
-}
-
-.text{
-    margin: 15px 25px;
-    padding: 20px 4px;
-    font-size: 25px;
-    word-spacing: 1px;
-    font-family: Arial, Helvetica, sans-serif;
-    padding-top: 2rem;
+@media only screen and (min-width: 360px) and (max-width: 768px) {
+    #first{
+        font-size: 30px;
+    }
+    #second{
+        font-size: 12px;
+        padding-right: 0%;
+    }
+    
 }
 .pp{
     padding-left: 6rem;
 }
+@media only screen and (min-width: 360px) and (max-width: 768px){
+    .pp{
+        font-size: 12px;
+        padding-left: 1rem;
+    }
+    
+}
+
 .pp h2{
     padding-top: 2rem;
 }
+@media only screen and (min-width: 360px) and (max-width: 768px){
+    .pp h2{
+        font-size: 15px;
+        padding-top: 1rem;
+
+    }
+}
+
 .pp p{
     padding-top: 1.5rem;
     padding-bottom: 2.3rem;
     width: 90%;
+}
+@media only screen and (min-width: 360px) and (max-width: 768px){
+    .pp p{
+        font-size: 12px;
+        padding-top: 1rem;
+        padding-bottom: 1.5rem;
+        width: 95%;
+
+    }
 }
 .pp ul{
     padding-top: 1rem;
@@ -60,10 +78,18 @@
     padding-left: 2rem;
     width: 70%;
 }
+@media only screen and (min-width: 360px) and (max-width: 768px){
+    .pp ul{
+        padding-top: 0.4rem;
+        padding-bottom: 0.9rem;
+        padding-left: 1rem;
+        width: 85%;
+
+    }
+}
+
 .pp a{
     text-decoration: none;
     color: #0000EE;
 }
-
-
 
