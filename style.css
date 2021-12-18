@@ -272,7 +272,13 @@ hr {
   footer {
     bottom: unset;
   }
-  .col {
-    flex-basis: 100%;
+  .row {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* flex-basis: 100%; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
   }
 }
