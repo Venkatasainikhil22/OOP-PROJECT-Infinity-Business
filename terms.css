@@ -74,5 +74,68 @@
     text-decoration: none;
     color: #0000EE;
 }
-
+@media(max-width: 760px) {
+    #first{
+        padding-top: 100px;
+        font-size: 45px;
+    }
+    .list{
+        font-size: 22px;
+        margin: 5px 35px;
+        padding: 3px 15px;
+    }
+    .para{
+        font-size: 20px;
+        margin: 1px  25px;
+        padding: 5px 0px;
+    }
+    #list{
+        padding: 5px 0px;   
+    }
+    
+    .container{
+        margin: -10px 18px;
+        padding: 7px 10px ;
+        list-style-type: none;
+    
+    }
+    
+    #second{
+        font-size: 15px;
+        padding-bottom: 20px;
+        padding-right: 20rem;
+        text-align: right;
+        margin-bottom: 2rem;
+    }
+    #p1{
+        padding: 8px 4px;
+    }
+    #p2{
+        padding: 8px 4px;
+    }
+    #p3{
+        padding: 8px 4px;
+    }
+    .tou{
+        padding-left: 6rem;
+    }
+    .tou h2{
+        padding-top: 2rem;
+    }
+    .tou p{
+        padding-top: 1.5rem;
+        padding-bottom: 2.3rem;
+        width: 100%;
+        line-height: 2rem;
+    }
+    .tou ul{
+        padding-top: 1rem;
+        padding-bottom: 1.5rem;
+        padding-left: 2rem;
+        width: 70%;
+    }
+    .tou a{
+        text-decoration: none;
+        color: #0000EE;
+}
 
