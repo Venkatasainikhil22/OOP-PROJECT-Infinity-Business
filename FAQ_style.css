@@ -68,7 +68,7 @@
   .section-container {
     flex-flow: row wrap;
   }
-  .section-container .about-left-col {
+  .section-container .about-left-col .about-right-col {
     width: 90%;
     height: auto;
     justify-content: center;
@@ -100,7 +100,7 @@
   } */
   .about-right-col p{
     font-size: 15px;
-    text-align:center;
+    text-align:justify;
      padding: 10px;
     margin: 10px;
   }
