@@ -281,6 +281,10 @@ hr {
     flex-direction: column;
     flex-wrap: wrap;
   }
+  .col-1 {
+  flex-basis: 25%;
+  padding: 10px;
+}
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
