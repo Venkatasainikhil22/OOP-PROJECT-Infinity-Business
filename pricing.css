@@ -50,7 +50,7 @@
     
     margin-top: 5%;
     width: 50%;
-    background: rgb(158, 110, 137);
+    background: whitesmoke;
     text-align: center;
     border-width: 10px;
     border-style:groove;
@@ -63,7 +63,7 @@
     width: 50%;
     text-align: center;
     border-width: 10px;
-    background: rgb(158, 110, 137);
+    background: whitesmoke;
 
     border-style: groove;
     Border-color: rgba(219, 164, 11, 0.746);
@@ -95,6 +95,10 @@
         border-radius: 1em;
         font-size: 0.6em;
         
+    }
+    .flexcontainer{
+        padding: 0px 2px;
+
     }
 
     .table_1{    
