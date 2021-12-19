@@ -189,14 +189,14 @@ footer {
   align-items: flex-start;
   justify-content: space-between;
 }
-.col-2 {
+.colum {
   flex-basis: 25%;
   padding: 10px;
 }
 .logo {
   margin-bottom: 30px;
 }
-.col-2 h3 {
+.colum h3 {
   width: fit-content;
   margin-bottom: 40px;
   position: relative;
