@@ -189,14 +189,14 @@ footer {
   align-items: flex-start;
   justify-content: space-between;
 }
-.col-1 {
+.col-2 {
   flex-basis: 25%;
   padding: 10px;
 }
 .logo {
   margin-bottom: 30px;
 }
-.col-1 h3 {
+.col-2 h3 {
   width: fit-content;
   margin-bottom: 40px;
   position: relative;
@@ -281,10 +281,7 @@ hr {
     flex-direction: column;
     flex-wrap: wrap;
   }
-  .col-1 {
-  flex-basis: 25%;
-  padding: 10px;
-}
+ 
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
