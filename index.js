@@ -9,7 +9,8 @@ app.use(bodyParser.urlencoded({extended: true}));
 const nodemailer = require('nodemailer');
 const session = require('express-session');
 const flash = require('connect-flash');
-const port = 9000;
+const port = process.env.PORT;
+const url = process.env.MONGODB_URI;
 
 
 const {initPayment, responsePayment} = require("./paytm/services/index.js");
@@ -54,7 +55,7 @@ app.get('/login',function(req,res){
   app.post('/loginpage',function(req,res){
     // res.sendFile(path.join(__dirname,'/login.html'));
       // console.log(req.body);
-      user.findOne({email:req.body.email},function(err,user)
+      user.findOne({email:req.body.email},function(err,User)
       {
         if(err)
         {
@@ -63,22 +64,22 @@ app.get('/login',function(req,res){
         }
         else
         {
-          if(!user)
+          if(!User)
           {
             res.redirect('/signuppage');
             return ;
           }
-          if(user.password==req.body.password)
+          if(User.password==req.body.password)
           {
             // res.render('/index.',{
 
              
-            console.log('login successfully ',user.name);
+            console.log('login successfully ',User.name);
             res.render('index',{
-              username:user.name
+              username:User.name
             });
             // res.redirect('/');
-              //  return ;
+               return ;
           }
           else
           {
@@ -89,7 +90,7 @@ app.get('/login',function(req,res){
             return ;
           }
           
-          return ; 
+          // return ; 
         } 
        
       });
@@ -266,7 +267,7 @@ app.post('/passrecover',function(req,res){
           from:'businessinfinty@gmail.com',
           to:User.email,
           subject:'Infinity Business',
-          html:'<h1> ${User.name} this is your password </h1>'+ User.password + '<h1 style="color:red"></h1>'
+          html:`<h1> ${User.name} this is your password </h1>'+ User.password + '<h1 style="color:red"></h1>`
         }
         transport.sendMail(mailOptions,function(err,info){
           if(err)
