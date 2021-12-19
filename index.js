@@ -267,7 +267,7 @@ app.post('/passrecover',function(req,res){
           from:'businessinfinty@gmail.com',
           to:User.email,
           subject:'Infinity Business',
-          html:`<h1> ${User.name} this is your password </h1>'+ User.password + '<h1 style="color:red"></h1>`
+          html:`<h1> ${User.name} this is your password </h1>'+ ${User.password} + '<h1 style="color:red"></h1>`
         }
         transport.sendMail(mailOptions,function(err,info){
           if(err)
