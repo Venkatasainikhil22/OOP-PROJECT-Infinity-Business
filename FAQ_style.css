@@ -37,6 +37,7 @@
 }
 .about-right-col{
   float: right;
+  margin-top: 2rem;
 }
 
 .section-container .about-left-col .section-content {
