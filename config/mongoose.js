@@ -1,7 +1,7 @@
 // require library 
 const mongoose = require('mongoose');
 // connect with database 
-mongoose.connect('mongodb+srv://tarun9068:9068855059Vats@cluster0.c41u0.mongodb.net/signin_updb?retryWrites=true&w=majority');
+mongoose.connect(process.env.MONGO_URI);
 // checking the connection
 const db = mongoose.connection;
 // if error through this 
